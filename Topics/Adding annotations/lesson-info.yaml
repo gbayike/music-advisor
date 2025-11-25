@@ -1,0 +1,8 @@
+content:
+  - Theory
+  - Creating a small application with class methods override
+  - Built-in annotations
+  - Rules of annotations
+  - Deprecated annotation
+  - Creating and invoking methods in Animal and Dog classes
+  - Creating a HelloWorld class and invoking its method

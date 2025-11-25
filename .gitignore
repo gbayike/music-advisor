@@ -1,0 +1,28 @@
+# ---- IntelliJ IDEA ----
+.idea/
+*.iml
+out/
+
+# ---- Gradle ----
+.gradle/
+build/
+!gradle-wrapper.jar
+.gradle-task-name-cache
+gradle-app.setting
+
+# ---- Java ----
+*.class
+*.jar
+*.war
+*.ear
+*.hprof
+
+# ---- Logs & crash reports ----
+*.log
+hs_err_pid*
+
+# ---- OS-specific ----
+# macOS
+.DS_Store
+# Windows
+Thumbs.db

@@ -1,0 +1,99 @@
+content:
+  - Writing first program
+  - Printing data
+  - Types and variables
+  - Comments
+  - Reading user's input with Scanner
+  - Arithmetic operations
+  - Integer types and operations
+  - Increment and decrement
+  - Floating-point types and operations
+  - Boolean type and operations. True and false
+  - Type casting
+  - Errors in programs
+  - Debugging techniques
+  - Comparing values. Relational operators
+  - Conditional statement
+  - One-line condition with ternary operator
+  - Switch expression
+  - While and do-while loops
+  - For loop
+  - Break and continue. Branching
+  - Primitive and reference types
+  - Characters
+  - String
+  - Formatted output
+  - Processing strings
+  - Array
+  - Iterating over arrays
+  - Functional decomposition
+  - Declaring methods
+  - Calling methods
+  - Arrays as parameters
+  - Overloading
+  - Command-line arguments
+  - Defining classes
+  - Objects and their properties
+  - Getters and setters
+  - Initializing new instances. Constructor
+  - Instance methods
+  - Multiple constructors
+  - Static members
+  - Records
+  - Wrapping classes. Boxing
+  - Combining constants with enum
+  - Hierarchy of exceptions
+  - Exception handling
+  - NullPointerException
+  - Optional
+  - Grouping classes with packages
+  - Inheritance
+  - Runtime type checking
+  - Sealed classes and interfaces
+  - Method overriding
+  - Abstract class
+  - Declaring functionality with interfaces
+  - Default methods
+  - Anonymous class
+  - Anonymous classes properties
+  - Inner classes
+  - Random class
+  - LocalDate
+  - LocalDateTime
+  - LocalTime
+  - Comparing dates and time
+  - BigInteger
+  - BigDecimal
+  - What are collections
+  - The Collections framework overview
+  - The Set interface
+  - The Map interface (2)
+  - ArrayList
+  - Comparable
+  - Comparator
+  - Iterator and Iterable
+  - Regexes in programs
+  - Replacing characters with Regex
+  - Patterns and Matcher
+  - Match results
+  - File class
+  - Introduction to generic programming
+  - Generics and Object
+  - Generic methods
+  - Adding annotations
+  - Detecting annotations
+  - Custom annotations and types of annotations
+  - Threads as objects
+  - Lambda expressions
+  - Functional interfaces
+  - Method references
+  - Standard functional interfaces
+  - Function composition
+  - Functional data processing with streams
+  - Replacing characters with Regex
+  - Custom threads
+  - Thread management
+  - ThreadLocal
+  - Executors
+  - Thread synchronization
+  - Stream pipelines

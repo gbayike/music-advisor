@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: a special iterator for lists
+  - text: a pointer to a collection's element
+  - text: an interface with the <b>iterator()</b> method
+  - text: an ordered collection
+files:
+  - name: src/Task.java
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/8401#comment
+status: Solved
+record: -1
+local_check: false

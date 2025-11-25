@@ -1,0 +1,5 @@
+content:
+  - Theory
+  - Rounding down a halved float value to an integer
+  - Possible implicit castings
+  - Casting long to byte with intermediate int

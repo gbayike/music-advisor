@@ -1,0 +1,15 @@
+type: edu
+custom_name: Rocking OAuth
+files:
+  - name: src/advisor/Main.java
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: test/MusicAdvisorTest.java
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/projects/62/stages/336/implement#comment
+status: Unchecked
+record: -1
