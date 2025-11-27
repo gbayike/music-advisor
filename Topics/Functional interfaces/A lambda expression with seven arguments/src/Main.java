@@ -1,6 +1,5 @@
 class Seven {
-    public static SeptenaryStringFunction fun = (s1, s2, s3, s4, s5, s6, s7) ->
-            s1.trim().toUpperCase() + s2.trim().toUpperCase() + s3.trim().toUpperCase() + s4.trim().toUpperCase() + s5.trim().toUpperCase() + s6.trim().toUpperCase() + s7.trim().toUpperCase();
+    public static SeptenaryStringFunction fun = //write your code here
 }
 
 @FunctionalInterface

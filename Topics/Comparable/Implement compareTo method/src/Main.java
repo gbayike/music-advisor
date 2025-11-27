@@ -1,8 +1,8 @@
 class Person implements Comparable<Person> {
-    private final String name;
-    private final int age;
-    private final int height;
-    private final int weight;
+    private String name;
+    private int age;
+    private int height;
+    private int weight;
 
     public Person(String name, int age, int height, int weight) {
         this.name = name;
@@ -30,11 +30,5 @@ class Person implements Comparable<Person> {
     @Override
     public int compareTo(Person otherPerson) {
         // add your code here!
-        int res = name.compareTo(otherPerson.getName());
-        if (res == 0) {
-            res = Integer.compare(age, otherPerson.getAge());
-        }
-
-        return res;
     }
 }

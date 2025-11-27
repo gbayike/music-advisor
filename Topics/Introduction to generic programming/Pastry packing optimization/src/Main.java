@@ -1,12 +1,12 @@
 /**
- Box for cakes
- */
+    Box for cakes
+*/
 class CakeBox {
 
     private Cake cake;
 
     public void put(Cake cake) {
-        this.cake = cake;
+    	this.cake = cake;
     }
 
     public Cake get() {
@@ -15,14 +15,14 @@ class CakeBox {
 }
 
 /**
- Box for pies
- */
+    Box for pies
+*/
 class PieBox {
 
     private Pie pie;
 
     public void put(Pie pie) {
-        this.pie = pie;
+    	this.pie = pie;
     }
 
     public Pie get() {
@@ -32,14 +32,14 @@ class PieBox {
 
 
 /**
- Box for tarts
- */
+    Box for tarts
+*/
 class TartBox {
 
     private Tart tart;
 
     public void put(Tart tart) {
-        this.tart = tart;
+    	this.tart = tart;
     }
 
     public Tart get() {
@@ -51,14 +51,7 @@ class TartBox {
     Hundred more such boring classes OR ...
     magic class for everything everybody is waiting for
 */
-class Box <T>{
-
-    private T pastry;
-
-    public void put(T pastry) { this.pastry = pastry; }
-
-    public T get() { return this.pastry; }
-}
+class Box...
 
 // Don't change classes below
 class Cake { }

@@ -6,7 +6,7 @@ public class Main {
 
 
         //write your code here
-        List<Integer> list = new ArrayList<>(Arrays.asList(2, 0, 1, 7));
+
 
         System.out.println(list);
     }

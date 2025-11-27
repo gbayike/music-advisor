@@ -1,8 +1,6 @@
 // update the class
-class MyException extends Throwable{
-    public MyException(String message){
-        super(message);
-    }
+class MyException extends ...{
+
 }
 
 //do not change the code

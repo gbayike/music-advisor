@@ -5,13 +5,6 @@ public class Main {
 
     public static int findMaxByIterator(Iterator<Integer> iterator) {
         // write your code here
-        int max = 0;
-        while(iterator.hasNext()) {
-            int nextElement = iterator.next();
-            if(nextElement > max)
-                max = nextElement;
-        }
-        return max;
     }
 
     /* Do not change code below */

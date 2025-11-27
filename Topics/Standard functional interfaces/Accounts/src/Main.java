@@ -7,23 +7,9 @@ import java.util.stream.Collectors;
 class Main {
 
     public static void printFilteredAccounts(List<Account> accounts) {
-        Predicate<Account> isNonEmpty = (acc) -> acc.balance > 0L;
-        List<Account> nonEmptyAccounts = new ArrayList<>();// write your code here
-        accounts.forEach(
-                acc -> {
-                    if(isNonEmpty.test(acc))
-                        nonEmptyAccounts.add(acc);
-                }
-        );
+        List<Account> nonEmptyAccounts = // write your code here
+        List<Account> accountsWithTooMuchMoney = // write your code here
 
-        Predicate<Account> isWithTooMuchMoney = (acc) -> !acc.isLocked() && acc.balance >= 100_000_000L;
-        List<Account> accountsWithTooMuchMoney = new ArrayList<>();// write your code here
-        accounts.forEach(
-                acc -> {
-                    if (isWithTooMuchMoney.test(acc))
-                        accountsWithTooMuchMoney.add(acc);
-                }
-        );
         // Don't change the code below
         nonEmptyAccounts.forEach(a -> System.out.print(a.getNumber() + " "));
         accountsWithTooMuchMoney.forEach(a -> System.out.print(a.getNumber() + " "));

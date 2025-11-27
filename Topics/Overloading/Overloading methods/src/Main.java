@@ -22,7 +22,7 @@ public class Main {
                 break;
             case "int":
                 final int intVal = Integer.parseInt(scanner.nextLine());
-                final int intResult = (int) getMaxMinusCurrent(intVal);
+                final int intResult = getMaxMinusCurrent(intVal);
                 System.out.println(intResult);
                 break;
             default:

@@ -25,9 +25,6 @@ class Score implements Comparable<Score> {
     @Override
     public int compareTo(Score score) {
         // your code here
-        return Comparator.comparing(Score::getTotalScore)
-                .thenComparing(Score::getPlayer)
-                .compare(this, score);
     }
 }
 

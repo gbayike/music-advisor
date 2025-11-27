@@ -12,7 +12,6 @@ public class Main {
      */
     public static long countPasswords(Stream<String> passwordStream) {
         // write your code here
-        return passwordStream.count();
     }
 
     // Don't change the code below

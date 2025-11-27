@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //modify this Record
-record Person(String name, String address) {
+record Person() {
 
 }
 

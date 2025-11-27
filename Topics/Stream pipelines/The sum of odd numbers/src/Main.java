@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.util.stream.LongStream;
-import java.util.stream.Stream;
 
 class Main {
 
@@ -14,9 +12,6 @@ class Main {
      */
     public static long sumOfOddNumbersInRange(long start, long end) {
         // write your code here
-        return LongStream.range(start, end+1)
-                .filter(value -> value%2 != 0)
-                .sum();
     }
 
     // Don't change the code below

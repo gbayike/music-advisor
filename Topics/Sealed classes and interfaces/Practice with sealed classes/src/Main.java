@@ -12,16 +12,4 @@ sealed abstract class Shape permits Square {
     abstract double getArea();
 }
 
-final class Square extends Shape{
-
-    private final double length;
-
-    public Square(double length){
-        this.length = length;
-    }
-
-    @Override
-    double getArea() {
-        return length * length;
-    }
-}
+// implement the Square class here

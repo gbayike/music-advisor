@@ -14,6 +14,9 @@ content:
   - Music Advisor
   - Topics
 additional_files:
-  - name: gradle/wrapper/gradle-wrapper.properties
+  - name: build.gradle
+    visible: true
+  - name: settings.gradle
+    visible: true
 mode: Study
 yaml_version: 5

@@ -6,9 +6,6 @@ public class Main {
         System.out.println("print(\"" + strArg + "\")");
     }
 
-    public static void print(String strArg, int intArg){
-        System.out.println("print(\"" + strArg+ "\"" + ", " + intArg +")");
-    }
     // write your method here
 
     /* Do not change code below */

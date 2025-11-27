@@ -97,3 +97,7 @@ content:
   - Executors
   - Thread synchronization
   - Stream pipelines
+  - Stream filtering
+  - Map and flatMap
+  - Collectors
+  - Grouping collectors

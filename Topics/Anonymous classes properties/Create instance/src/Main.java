@@ -2,21 +2,11 @@ class CreateInstance {
 
     public static SuperClass create() {
 
-        SuperClass instance = new SuperClass() {
-            @Override
-            public void method2() {
-                System.out.println("method2");;
-            }
-
-            @Override
-            public void method3() {
-                System.out.println("method3");
-            }
-        };
+        SuperClass instance = /* create an instance of an anonymous class here, 
+                                 do not forget ; on the end */
 
         // call the overridden methods
-        instance.method2();
-        instance.method3();
+
         return instance;
     }
 }
@@ -25,7 +15,7 @@ class CreateInstance {
 
 abstract class SuperClass {
 
-    public static void method1() {
+    public static void method1() { 
         System.out.println("It's a static method.");
     }
 

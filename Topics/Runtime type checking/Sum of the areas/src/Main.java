@@ -1,17 +1,6 @@
 class Sum {
     public static int sumOfAreas(Shape[] array) {
-
-        int sum = 0;
-        for (Shape shape : array) {
-            if (shape.getClass() == Shape.class)
-                sum += 0;
-            else if (shape.getClass() == Square.class)
-                sum += ((Square) shape).getSide() * ((Square) shape).getSide();
-            else if (shape.getClass() == Rectangle.class)
-                sum += ((Rectangle) shape).getWidth() * ((Rectangle) shape).getHeight();
-
-        }
-        return sum;
+        // write your code here
     }
 }
 

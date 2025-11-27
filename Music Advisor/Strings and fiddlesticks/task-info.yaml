@@ -8,7 +8,7 @@ files:
     learner_created: false
   - name: build.gradle
     visible: true
-    learner_created: true
+    learner_created: false
 feedback_link: https://hyperskill.org/projects/62/stages/335/implement#comment
 status: Unchecked
 record: -1

@@ -6,8 +6,6 @@ public class Main {
 
         long[] longNumbers;
 
-        longNumbers = new long[] { 100000000001L, 100000000002L, 100000000003L };
-
         System.out.println(Arrays.toString(longNumbers));
     }
 }
